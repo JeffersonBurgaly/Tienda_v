@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 25, 2023, 8:06:14 PM
+    Author     : Administrator
+*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-repeat: none;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.logo{
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    
+}
+
+.fondo{
+    height: 50%;
+    position: absolute;
+    bottom: 50px;
+    right: 160px;
+}
+
+nav{
+    padding-left: 60px; 
+    position: absolute;
+    left: 35%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 2px 2px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+    
+    
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+
